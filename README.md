@@ -66,4 +66,5 @@ install {BioMart} using BiocInstaller::biocLite('grimbough/biomaRt')
 
 > CNA_result <- cal_CNAs(tumor_mat, normal_mat, ROW.name="GENE_SYMBOL", plot=TRUE)
 
-Updated by Ruli Gao,  August 22nd, 2018
+
+####### Updated by Ruli Gao,  August 22nd, 2018
