@@ -1,4 +1,4 @@
-# MVA_from_10XRNAseq
+# CopyNumbers_from_10xRNAseq
 
 
 Description:
