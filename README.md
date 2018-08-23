@@ -2,6 +2,7 @@
 
 
 Description:
+
 This is a straightforward method written in R to calculate copy numbers from 10X RNAseq data using moving averages of gene expression. Genome cordinates are annotated with hg20 and ensembl 93 through BioMart. Top genes that are expressed in 40% of either testing group of control group are selected to smoothing. The sliding windows are 50 genes.  This method is designed to separate aneuploid tumor cells from diploid normal cells within tumor tissues. By default it will not help if you meet a diploid tumor.
 
 Get ready:
@@ -64,3 +65,5 @@ An example run directly from count matrix:
 > source("/volumes/lab/users/ruligao/code/update_MVA_function_version.R")
 
 > CNA_result <- cal_CNAs(tumor_mat, normal_mat, ROW.name="GENE_SYMBOL", plot=TRUE)
+
+Ruli updated August 22, 2018
