@@ -1,4 +1,4 @@
-# CN_RNAseq_MVA: CopyNumbers_from_10xRNAseq using moving averages
+# MVA_CNA: CopyNumbers_from_10xRNAseq using moving averages
 
 
 ### Description
